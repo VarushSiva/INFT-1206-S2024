@@ -119,8 +119,13 @@
         <!-- insert iframe from youtube -->
         <iframe
           width="400"
-          src="https://www.youtube.com/watch?v=ojcNcvb1olg"
+          height="250"
+          src="https://www.youtube.com/embed/ojcNcvb1olg?si=O9F-5zGfHA1jrCLW"
+          title="YouTube video player"
           frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
         <h2>Rocking the free web</h2>
 
@@ -165,9 +170,9 @@
         </a>
         <a href="https://addons.mozilla.org/">
           <img
-            srcset="firefox-addons120.png 120w, firefox-addons400.png 400w"
+            srcset="firefox-addons120.jpg 120w, firefox-addons400.jpg 400w"
             sizes="(max-width:500px) 120px, 400px"
-            src="firefox-addons400.png"
+            src="firefox-addons400.jpg"
             alt="Get Extensions for Firefox"
           />
         </a>
@@ -179,6 +184,13 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="red-panda-portrait-zoom.jpg"
+          />
+          <img src="red-panda1200.jpg" alt="red panda" />
+        </picture>
       </div>
     </main>
   </body>
