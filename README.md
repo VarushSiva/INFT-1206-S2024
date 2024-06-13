@@ -8,4 +8,4 @@
 
 [Assignment 2 - Mozilla Splash Page](https://varushsiva.github.io/INFT-1206-S2024/Assignments/Assignment_2/mozilla_splash_page/index.html)
 
-[Assignment 2 - Structuring Planet Data] (https://varushsiva.github.io/INFT-1206-S2024/Assignments/Assignment_2/structuring_planet_data/index.html)
+[Assignment 2 - Structuring Planet Data](https://varushsiva.github.io/INFT-1206-S2024/Assignments/Assignment_2/structuring_planet_data/index.html)
