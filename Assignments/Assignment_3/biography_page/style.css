@@ -38,3 +38,10 @@ body {
   a:hover {
     text-decoration: none;
   }
+
+  ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
