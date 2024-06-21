@@ -15,4 +15,6 @@ html {
     width: 200px;
     height: 200px;
     background-color: red;
+    align-content: center;
+    text-align: center;
   }
