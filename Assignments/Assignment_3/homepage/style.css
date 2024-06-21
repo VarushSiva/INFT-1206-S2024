@@ -8,130 +8,163 @@ Description: Typesetting a community school homepage.
 /* General setup */
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0 auto;
-    min-width: 1000px;
-    max-width: 1400px;
-  }
-  
-  /* Layout */
-  
-  section {
-    float: left;
-    width: 50%;
-  }
-  
-  aside {
-    float: left;
-    width: 30%;
-  }
-  
-  nav {
-    float: left;
-    width: 20%;
-  }
-  
-  footer {
-    clear: both;
-  }
-  
-  header, section, aside, nav, footer {
-    padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
-    border-top: 5px solid #a66;
-    border-bottom: 5px solid #a66;
-  }
-  
-  /* WRITE YOUR CODE BELOW HERE */
+  box-sizing: border-box;
+}
 
-  html {
-    font-size: 10px;
-  }
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
 
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-  }
+/* Layout */
 
-  h2 {
-    font-size: 2.5rem;
-  }
+section {
+  float: left;
+  width: 50%;
+}
 
-  h1, h2 {
-    letter-spacing: 2px;
-  }
+aside {
+  float: left;
+  width: 30%;
+}
 
-  p, li {
-    font-size: 1.5rem;
-    line-height: 1.3;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-  }
+nav {
+  float: left;
+  width: 20%;
+}
 
-  section h2 + p{
-    text-indent: 20px;
-  }
+footer {
+  clear: both;
+}
 
-  a:link, a:visited {
-    color: #a66;
-  }
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
 
-  a:focus, a:hover {
-    text-decoration: none;
-  }
+/* header and footer */
 
-  a:active {
-    color: transparent;
-    text-shadow: 1px 1px 1px rgb(136, 61, 61);
-  }
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
 
-  a[href*="http"] {
-    padding-right: 15px;
-    background: url(external-link-52.png) no-repeat 100%;
-    background-size: 12px;
-  }
+/* WRITE YOUR CODE BELOW HERE */
 
-  ul {
-    list-style-type: square;
-  }
+/*
+  Vogue font by Vladimir Nikolic, obtained from dafont.com
+  Arvo font by Anton Koovit, obtained from fontsquirrel.com
+  */
 
-  ol {
-    list-style-type: lower-roman;
-  }
+@font-face {
+  font-family: "vogueregular";
+  src: url("fonts/vouge/vogue-webfont.woff2") format("woff2"),
+    url("fonts/vouge/vogue-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  nav ul {
-    padding-left: 0;
-    margin-top: 1rem;
-  }
+@font-face {
+  font-family: "arvobold";
+  src: url("fonts/arvo/arvo-bold-webfont.woff2") format("woff2"),
+    url("fonts/arvo/arvo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  nav li {
-    list-style-type: none;
-    margin-bottom: 1.5rem;
-  }
+html {
+  font-size: 10px;
+  font-family: vogueregular, serif;
+}
 
-  nav li a {
-    text-decoration: none;
-    border: 1px solid #a66;
-    line-height: 3;
-    display: inline-block;
-    font-size: 2rem;
-    width: 100%;
-    text-align: center;
-  }
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
 
-  nav li a:focus, nav li a:hover {
-    color: white;
-    background-color: #a66;
-  }
+h2 {
+  font-size: 2.5rem;
+}
 
-  nav li a:active {
-    color:black;
-    background-color: rgb(136, 61, 61);
-  }
+h1,
+h2 {
+  letter-spacing: 2px;
+  font-family: arvobold, sans-serif;
+}
+
+p,
+li {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+a:link,
+a:visited {
+  color: #a66;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: transparent;
+  text-shadow: 1px 1px 1px rgb(136, 61, 61);
+}
+
+a[href*="http"] {
+  padding-right: 15px;
+  background: url(external-link-52.png) no-repeat 100%;
+  background-size: 12px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+nav ul {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+nav li a {
+  text-decoration: none;
+  border: 1px solid #a66;
+  line-height: 3;
+  display: inline-block;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background-color: #a66;
+}
+
+nav li a:active {
+  color: black;
+  background-color: rgb(136, 61, 61);
+}
