@@ -17,4 +17,8 @@ html {
     background-color: red;
     align-content: center;
     text-align: center;
+    /* 1 rem Defaults to 16px, 1.1 x 16 = 17.6px for the font*/
+    font-size: 1.1rem;
+    color: white;
+    text-shadow: 1px 1px black;
   }
